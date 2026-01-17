@@ -1,0 +1,31 @@
+import { Meta, Story, Controls } from '@storybook/blocks';
+import * as ButtonStories from './Button.stories';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+The Button component is a versatile, accessible button that supports multiple types, sizes, states, and icon positions. All styling is driven by design tokens, ensuring consistency across the design system.
+
+## Features
+
+- ✅ **4 Button Types**: Filled, Tonal, Link, and Stroke
+- ✅ **4 Sizes**: Large, Medium, Small, and Extra Small
+- ✅ **4 States**: Normal, Pressed, Disabled, and Loading
+- ✅ **4 Icon Positions**: None, Leading, Trailing, and Only
+- ✅ **Theme Support**: Automatic light/dark mode switching
+- ✅ **Design Tokens**: Fully tokenized with semantic color, spacing, typography, and radius tokens
+
+## Examples
+
+<Story of={ButtonStories.Default} />
+
+<Story of={ButtonStories.AllTypes} />
+
+<Story of={ButtonStories.AllSizes} />
+
+<Story of={ButtonStories.AllStates} />
+
+## Props
+
+<Controls of={ButtonStories.Playground} />
