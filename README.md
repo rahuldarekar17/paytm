@@ -1,4 +1,6 @@
-# PML DS25 Components
+# paytm
+
+## PML DS25 Components
 
 React component library built from Figma designs using the DS25 design token system.
 
